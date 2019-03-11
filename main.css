@@ -1,6 +1,8 @@
 /*style image svg */
-.map{
-    overflow: hidden; /*arreter la selection apres quand la sourie est or la cate */
+
+.map {
+    overflow: hidden;
+    /*arreter la selection apres quand la sourie est or la cate */
 }
 
 .map__image {
@@ -15,25 +17,40 @@
     transition: fill 0.3s;
 }
 
-.map__image .is-active path{
+.map__image .is-active path {
     fill: rgba(153, 31, 224, 0.637);
 }
 
 /*style liste des pays */
 
-.map__list{
+.map__list {
     float: right;
     width: 50%;
 }
 
-.map__list a{
+.map__list a {
     color: inherit;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.map__list a.is-active{
+.map__list a.is-active {
     color: rgba(153, 31, 224, 0.637);
     font-weight: bold;
     text-decoration: underline;
 }
+/*
+.Projet__list {
+    float: left;
+}
+
+.Projet__list a.is-active {
+    color: rgba(153, 31, 224, 0.637);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.projet{
+
+}
+*/
+/*les ligne suisvantes vavorisent les different changement au niveau de chaques projet */
