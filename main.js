@@ -2,13 +2,13 @@ var map = document.querySelector('#map')
 var paths = map.querySelectorAll('.map__image a')
 var links = map.querySelectorAll('.map__list a')
 
-//plyfill du forEach
+/*/plyfill du forEach
 if (Nodelist.prototype.forEach === undefined) {
     NodeList.prototype.forEach = function (callback) {
         [].forEach.call(this, callback)
     }
     
-}
+} */
 
 var activeArea = function (id) {
     map.querySelectorAll('.is-active').forEach(function (item) {
